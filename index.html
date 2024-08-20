@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+   <!-- header -->
+  <div id="landing">
+    <div class="header">
+      <div class="container">
+        <span class="logo"><a href="#"></a></span>
+        <div class="menu-list">
+          <ul>
+            <li><a href="#landing" class="active">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="right-sec">
+          <div class="icons">
+            <ul>
+              <li><a href="https://github.com/ishahasham" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/isha-hasham-976816252/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button class="btn-a"><a href="#Contact">Let's Connect</a></button>
+          </div>
+          <div class="mob-icon">
+            <i class="fa-solid fa-bars bars-icon"></i>
+            <i class="fa-solid fa-xmark close-mob"></i>
+          </div>
+        </div>
+        <div class="mobile">
+          <ul>
+            <li><a href="#landing" class="active">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://github.com/ishahasham"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="linkedin.com/in/isha-hasham-976816252"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+      </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="container">
+        <div class="text">
+          <span>Welcome To My Portfolio</span>
+          <h3>Hi! I'm Isha <br> Frontend Developer</h3>
+          <p>As a frontend developer, I specialize in crafting user-friendly, visually appealing interfaces that ensure an engaging user experience. I work with a variety of modern web technologies, including HTML, CSS, JavaScript, and frameworks like React, to build responsive and interactive websites. </p>
+          <button><a href="#skills">Let's Connect <i class="fa-solid fa-arrow-right"></i></a></button>
+        </div>
+        <div class="image">
+          <img src="img/purple3-removebg-preview.png" height="400px" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- skills -->
+  <div class="skills" id="skills">
+    <div class="container">
+      <div class="title">
+        <h3>Skills</h3>
+  <p>I specialize in frontend development, proficient in, HTML, CSS, ES5, and ES6. I have extensive experience with modern frameworks and libraries such as ReactJS, Bootstrap, and MUI to create responsive and dynamic user interfaces. Additionally, I have knowledge of Firebase and a little bit understanding of backend development in Java, including frameworks like Swing.</p>
+      </div>
+      <div class="skills-slider">
+        <i class="fa-solid fa-arrow-left left-arrow"></i>
+        <div class="boxes-cont">
+          <div class="skill-box">
+            <img src="img/html1-removebg-preview.png" alt="">
+          <span>HTML</span>
+        </div>
+        <div class="skill-box">
+            <img src="img/css-removebg-preview (1).png" alt="">
+          <span>CSS</span>
+        </div>
+        <div class="skill-box">
+            <img src="img/js.webp" alt="">
+          <span>JavaScript</span>
+        </div>
+          <div class="skill-box">
+            <img src="img/react-removebg-preview (1).png" alt="">
+          <span>React Js</span>
+        </div>
+        <div class="skill-box">
+            <img src="img/java.webp" alt="">
+          <span>Java</span>
+        </div>
+        <div class="skill-box">
+            <img src="img/firebase-removebg-preview.png" alt="">
+          <span>Firebase</span>
+        </div>
+        </div>
+        <i class="fa-solid fa-arrow-right right-arrow"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- projects -->
+  <div class="projects" id="projects">
+    <div class="container">
+      <div class="title">
+        <h3>Projects</h3>
+        <p>Here are fews Projects which I created from HTML, CSS, JavaScript and using other frameworks like ReactJs, Bootstrap and MUI</p>
+        <div class="tabs">
+          <span class="active" onclick="showProjects('tab1')">HTML & CSS</span>
+          <span onclick="showProjects('tab2')">ES5</span>
+          <span onclick="showProjects('tab3')">ES6</span>
+          <span onclick="showProjects('tab4')">React Js</span>
+        </div>
+      </div>
+      <div class="images">
+        <div class="tab-content" id="tab1">
+          <div class="image">
+            <img src="img/portfolio.png" alt="">
+            <div class="text">
+              <h3>Portfolio Website</h3>
+              <button class="add-btns"><a href="https://innate-amount.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <!-- html css -->
+          <div class="image">
+            <img src="img/hi-tea.webp" alt="">
+            <div class="text">
+              <h3>Salt n pepper resturant <br>Landing Page</h3>
+              <button class="add-btns"><a href="https://torpid-grandfather.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/iphone-15pro.png" alt="">
+            <div class="text">
+              <h3>IPhone website <br> Landing Page</h3>
+              <button class="add-btns"><a href="https://acidic-yarn.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- js -->
+        <div class="tab-content" id="tab2" style="display: none;">
+          <div class="image">
+            <img src="img/Bisma Resin Logo_02.png" alt="">
+            <div class="text">
+              <h3>E-commerce Website</h3>
+              <button class="add-btns"><a href="https://resinroombybisma.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/stopwatch.png" alt="">
+            <div class="text">
+              <h3>Stop Watch</h3>
+              <button class="add-btns"><a href="https://stopwatch-cac89.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/calculator.png" alt="">
+            <div class="text">
+              <h3>Calculator</h3>
+              <button class="add-btns"><a href="https://lucky-blade.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!--  ES6 -->
+        <div class="tab-content" id="tab3" style="display: none;">
+          <div class="image">
+            <img src="img/githubfinder.png" alt="">
+            <div class="text">
+              <h3>Github Finder</h3>
+              <button class="add-btns"><a href="https://salt-n-pepper-b5e3c.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/weatherapp.png" alt="">
+            <div class="text">
+              <h3>Weather App</h3>
+              <button class="add-btns"><a href="https://loving-activity.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/quizapp.png" alt="">
+            <div class="text">
+              <h3>Quiz App</h3>
+              <button class="add-btns"><a href="https://necessary-tray.surge.sh/" target="_blank">View</a></button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- react js -->
+
+        <div class="tab-content" id="tab4">
+          <div class="image">
+            <img src="img/todoapp.png" alt="">
+            <div class="text">
+              <h3>Todo App</h3>
+              <button class="add-btns"><a href="https://reacttodoapp-67c95.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+          
+          <div class="image">
+            <img src="img/onlineWardrobe.png" alt="">
+            <div class="text">
+              <h3>E-commerce Website</h3>
+              <button class="add-btns"><a href="https://onlinewardrobe-b77ab.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="img/jwp.png" alt="">
+            <div class="text">
+              <h3>Jawan Pakistan <br> Landing Page</h3>
+              <button class="add-btns"><a href="https://jawanpakistan-cf843.web.app/" target="_blank">View</a></button>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- contact page -->
+  <div class="login" id="Contact">
+    <div class="container">
+      <div class="image">
+        <img src="img/contact-img.svg" alt="">
+      </div>
+      <div class="col">
+        <h3>Get In Touch</h3>
+        <form id="contactForm">
+          <input type="text" id="firstName" placeholder="First Name">
+          <input type="text" id="lastName" placeholder="Last Name">
+          <input type="email" id="email" placeholder="Email Address">
+          <input type="tel" id="phone" placeholder="Phone No.">
+          <input type="text" id="message" placeholder="Message">
+        </form>
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="text">
+        <div class="icons">
+          <ul>
+            <li><a href="https://github.com/ishahasham"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/isha-hasham-976816252/"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
