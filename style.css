@@ -78,7 +78,7 @@ html {
   }
   @media (max-width: 991px) {
     .header {
-      background: #121212 !important;
+      background: transparent !important;
     }
   }
   /* Start Shopping cart */
